@@ -25,24 +25,24 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-  ────  *DyLux  ┃ ᴮᴼᵀ*  ────
+  ────  *Andrew┃ ᴮᴼᵀ*  ────
 
-👋🏻 _Hola_ *%name*
+👋🏻 _Ciao frocio, prova il mio bot_ *%name*
 
-🏆 Rango : *%role*
-🧿 Nivel : *%level* 
-👥 Usuarios : %totalreg
+🏆 grado : *%role*
+🧿 livello : *%level* 
+👥 utenti : %totalreg
 ─────────────
-▢ Crea tu propio bot 
+▢ Crea il tuo bot e non copiarlo 
 • https://youtu.be/jeXHB0IIzCM
-▢ Descarga *FGWhatsApp*
+▢ Scarica *FGWhatsApp*
 • https://fgmods.epizy.com
 ─────────────
 %readmore
 Ⓟ = Premium
 ⓓ = Diamantes
 -----  -----  -----  -----  -----
-  ≡ *LISTA DE MENUS*
+  ≡ *LISTA DEI MENU*
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %islimit %isPremium',
@@ -151,8 +151,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   //const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     let pp = './src/fg_logo.jpg'
     
-  conn.sendHydrated(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n', pp, 'https://youtube.com/fg98f', 'YouTube', null, null, [
-      ['ꨄ︎ Apoyar', '/donate'],
+  conn.sendHydrated(m.chat, text.trim(), '▢ Andrew┃ ᴮᴼᵀ\n▢ seguimi su tik tok\http://tiktok.com/@andre._.000_._
       ['⏍ Info', '/botinfo'],
       ['✆ Owner', '/owner']
     ], m)
