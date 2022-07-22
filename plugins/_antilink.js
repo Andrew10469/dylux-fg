@@ -18,7 +18,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
         await conn.sendButton(m.chat, `*≡ Enlace Detectado*
             
 No permitimos enlaces de otros grupos 
-lo siento *${await this.getName(m.sender)}*  serás expulsado del grupo ${isBotAdmin ? '' : '\n\nNo soy admin así que no te puedo expulsar :"v'}`, igfg, ['Desactivar AntiLink', '/off antilink'], m)
+lo siento *${await this.getName(m.sender)}*  serás expulsado del grupo ${isBotAdmin ? '' : '\n\non sono admin, lo devo fare pregando??c :"v'}`, igfg, ['Desactivar AntiLink', '/off antilink'], m)
         if (isBotAdmin && chat.antiLink) {
             await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         } else if (!chat.antiLink) return //m.reply('')
