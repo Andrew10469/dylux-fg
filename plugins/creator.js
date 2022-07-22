@@ -3,14 +3,14 @@ function handler(m) {
   this.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
   
   m.reply(`
-*≡ OWNER*
+*≡ IL DIO DEL BOT*
   *Andrew*
 ▢ tik tok :
   • http://tiktok.com/@andre._.000_._._
 ▢ WhatsApp :
   • http://wa.me/+79303876919 
   
- *≡ HELPERS*
+ *≡ AIUTANTE*
   *Hypnos*
 ▢ tik tok : https://www.tiktok.com/@pizza_biesse?_t=8UC5oHnDfBm&_r=1
 ▢ WhatsApp : http://wa.me/+393477037227
