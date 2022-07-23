@@ -27,16 +27,16 @@ const defaultMenu = {
   before: `
   ────  *DyLux  ┃ ᴮᴼᵀ*  ────
 
-👋🏻 _Hola_ *%name*
+👋🏻 _Bella_ *%name* _Per caso sei frocio_??
 
-🏆 Rango : *%role*
-🧿 Nivel : *%level* 
-👥 Usuarios : %totalreg
+🏆 Grado : *%role*
+🧿 Livello : *%level* 
+👥 Utenti : %totalreg
 ─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/jeXHB0IIzCM
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
+▢ *Gruppo Whatsapp*
+• https://chat.whatsapp.com/FW3L5D5kWf3CofVun41usu
+▢ *Mio bot*
+• 
 ─────────────
 %readmore
 Ⓟ = Premium
